@@ -7,11 +7,11 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5824194422:AAElt9rqqxGu86kZNvHLqRmx6A9oKkUTRsg")
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "LinkSearchBot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "BQBOo-8tx4_jwzeHu_kLDtsArHKYNCLaR82kADt4vTb4mQYtGIerwATJgb8dOGZfuhcYhyjegCIQfMukQkxMsCiU8Mj3GSKrzokygUFTWl1FVcZvTZK5NI-fP5Z_1SBau3cVivuSHtDlHzESb9nq5_pYiyiRGx3yCvzT0nTlrz0zAjp9rjOLrUmRjIgybvovVB8iUEOguEakgtepInxXUb9tpOnqmE9G293dhJlcpY9LMmpMgX7_fDVRANF51WCpS0b6DBkMYn0bUh7qVwijwuHqRjwZU7KVF0g0w2XnbhPgni_pqFtmXhWM9lhaXnOl3G4vFysJHPu34EZn3RtDKq4EAAAAAVy1ScMA")
-    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -1001846372477))
+    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001846372477))
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "Cw_search_bot")
     BOT_OWNER = int(os.environ.get("BOT_OWNER", 5628615681))
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Sawansingh24:Sawansingh24@cluster0.uiuhxxj.mongodb.net/?retryWrites=true&w=majority")
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", -1001889508148))
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001889508148)
     ABOUT_BOT_TEXT = """<b>This is Link Search Bot.
     
     
